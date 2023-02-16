@@ -11,7 +11,7 @@ const server = http.createServer(app);
 
 app.use('/fruits', fruitsRouter);
 
-const host = '0.0.0.0';
+const host = 'localhost';
 const port = 3000;
 
 server.listen(port, host, () => {

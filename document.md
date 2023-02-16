@@ -12,7 +12,7 @@ Not required.
 
 | Parameter | Type   | Reqeuired | Description |
 | --------- | ------ | --------- | ----------- |
-| id        | string | true      | 과일 식별자 |
+| id        | number | true      | 과일 식별자 |
 
 ### Response fields
 
@@ -20,7 +20,6 @@ Not required.
 | ----------- | ------ | ----------- |
 | id          | number | 과일 식별자 |
 | name        | string | 과일 이름   |
-| description | string | 설명        |
 
 ### Example request
 
@@ -47,7 +46,6 @@ Content-Length: 835
   "data" : {
     "id": 1,
     "name: "사과",
-    "description": ""
   }
 }
 ```
