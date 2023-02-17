@@ -16,21 +16,21 @@ Not required.
 
 ### Response fields
 
-| Path        | Type   | Description |
-| ----------- | ------ | ----------- |
-| id          | number | 과일 식별자 |
-| name        | string | 과일 이름   |
+| Path | Type   | Description |
+| ---- | ------ | ----------- |
+| id   | number | 과일 식별자 |
+| name | string | 과일 이름   |
 
 ### Example request
 
-```HTTP
+```text
 GET /fruits/1 HTTP/1.1
 Host: localhost:3000
 ```
 
 ### Example response
 
-```HTTP
+```text
 HTTP/1.1 200 OK
 Content-Type: application/json;charset=UTF-8
 X-Content-Type-Options: nosniff
